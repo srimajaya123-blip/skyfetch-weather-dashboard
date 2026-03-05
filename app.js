@@ -51,6 +51,7 @@ async function getWeather(city) {
         }
     }
 }
+//
 // Function to display weather data
 function displayWeather(data) {
     // Extract the data we need
