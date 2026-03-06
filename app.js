@@ -1,4 +1,4 @@
-// ==============================
+I// ==============================
 // WeatherApp Constructor
 // ==============================
 function WeatherApp(apiKey) {
@@ -51,7 +51,7 @@ WeatherApp.prototype.init = function () {
 WeatherApp.prototype.handleSearch = function () {
 
     const city = this.cityInput.value.trim();
-
+jhhjj
     if (!city) {
         this.showError("Please enter a city name");
         return;
