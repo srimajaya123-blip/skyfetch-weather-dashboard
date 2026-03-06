@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/**/
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -83,4 +83,37 @@ h1 {
 .weather-icon {
     width: 100px;
     height: 100px;
+}
+.search-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+#city-input {
+    flex: 1;
+    padding: 12px 20px;
+    border-radius: 25px;
+    border: 2px solid #ddd;
+    font-size: 1rem;
+}
+
+#city-input:focus {
+    border-color: #667eea;
+    outline: none;
+}
+
+#search-btn {
+    padding: 12px 30px;
+    background: linear-gradient(90deg, #667eea, #764ba2);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: transform 0.2s, opacity 0.2s;
+}
+
+#search-btn:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
 }
