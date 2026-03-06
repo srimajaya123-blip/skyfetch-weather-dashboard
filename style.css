@@ -117,3 +117,31 @@ h1 {
     opacity: 0.9;
     transform: scale(1.05);
 }
+.forecast-section{
+margin-top:30px;
+padding-top:20px;
+border-top:2px solid #eee;
+}
+
+.forecast-container{
+display:grid;
+grid-template-columns:repeat(5,1fr);
+gap:15px;
+}
+
+.forecast-card{
+background:#f5f5f5;
+padding:15px;
+border-radius:12px;
+text-align:center;
+transition:0.3s;
+}
+
+.forecast-card:hover{
+transform:translateY(-5px);
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+.forecast-card img{
+width:50px;
+}
